@@ -1,0 +1,45 @@
+.page {
+  font-family: var(--main-font), sanf-serif;
+}
+
+.header {
+  background: rgb(184,0,254);
+  background: linear-gradient(350deg, rgba(235,0,253,1) 0%, rgba(184,0,254,1) 100%);
+
+  padding: 1.3lh 1em;
+  display: flex;
+	flex-direction: column;
+	gap: 0.3lh;
+}
+
+.title {
+  font-size: 1.5em;
+  color: white;
+}
+
+.header__subtitle {
+  font-size: 1.2em;
+  /* --theme-clr-3 */
+	color: var(--theme-clr-3);
+}
+
+.menu {
+  padding: 1.3lh 1em;
+}
+
+.menu__list {
+  display: flex;
+	justify-content: space-around;
+}
+
+.menu__details {
+  position: relative;
+}
+
+.menu__details-list {
+  position: absolute;
+  top: 1lh;
+  right: 0;
+  text-align: right;
+  width: max-content;
+}
