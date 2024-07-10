@@ -1,81 +1,123 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Ярослав Б.</title>
+    <link href="./fonts/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/variables.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/globals.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Ярослав Б.</title>
-  <link href="./fonts/fonts.css" rel="stylesheet" type="text/css" />
-  <link href="./styles/variables.css" rel="stylesheet" type="text/css" />
-  <link href="./styles/globals.css" rel="stylesheet" type="text/css" />
-  <link href="./styles/style.css" rel="stylesheet" type="text/css" />
-</head>
+  <body class="page">
+    <header class="header">
+      <h1 class="title">Ярослав Бесфалин</h1>
+      <h2 class="header__subtitle">Любитель умных штук;)</h2>
+    </header>
 
-<body class="page">
-  <header class="header">
-    <h1 class="title">
-      Сайт Ярослава Бесфалина
-    </h1>
-    <h2 class="header__subtitle">Любитель умных штук;) </h2>
-  </header>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__item-link" href="#about">
+            <span> Обо мне </span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__item-link" href="#projects">
+            <span class="menu__item-text"> Проекты </span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__item-link" href="#interests">
+            <span class="menu__item-text"> Интересы </span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__item-link" href="#blog">
+            <span class="menu__item-text"> Блог </span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <details class="menu__details">
+            <summary class="menu__details-summary">
+              <span class="menu__details-summary-text">Контакты</span>
+            </summary>
+            <ul class="menu__details-list">
+              <li class="menu__details-item">
+                <a
+                  class="menu__details-item-link"
+                  href="https://vk.com/besfalin_yt"
+                >
+                  <span class="menu__details-item-text"> Профиль в ВК</span>
+                </a>
+              </li>
+              <li class="menu__details-item">
+                <a
+                  class="menu__details-item-link"
+                  href="youtube.com/@DanteBesfalin"
+                >
+                  <span class="menu__details-item-text">YouTube-канал</span>
+                </a>
+              </li>
+              <li class="menu__details-item">
+                <a class="menu__details-item-link" href="https://tg.com">
+                  <span class="menu__details-item-text">Телеграмм-канал</span>
+                </a>
+              </li>
+            </ul>
+          </details>
+        </li>
+      </ul>
+    </nav>
+    <main class="content">
+      <section class="section about" id="about">
+        <h2 class="section__title">Обо мне</h2>
+        <div class="section-about__wrapper">
+          <img
+            class="section-about__image"
+            src="./images/avatar.jpeg"
+            width="64"
+          />
+          <p class="section__text">Скоро...
+          </p>
+        </div>
+      </section>
+      <section class="section projects" id="projects">
+        <h2 class="section__title">Проекты</h2>
+        <p class="section__text">Скоро...</p>
+      </section>
+      <section class="section interests" id="interests">
+        <h2 class="section__title">Интересы</h2>
+        <p class="section__text">Скоро...</p>
+      </section>
+      <section class="section blog" id="blog">
+        <h2 class="section__title">Блог</h2>
+        <ul class="blogs-list">
+          <li class="blogs-item">
+            <article class="post">
+              <span class="post__sender">
+                Dante Besfalin | Мобильный gaming и многое другое</span
+              >
+              <div class="post__content">
+                <div class="post__text">
+                <div class="post__quote">
+                  <span class="post__quote-text">Дополнение к опросу</span>
+                </div>
+                Я хочу сделать максимально разнообразный контент, чтобы канал сильно отличался от сообщества в ВКонтакте, чтобы каждому было интересно. Вон, даже мембота купил
+              </div>
+              <div class="post__date">11:49</div>
+              <div class="post__button">
+                <a href="https://t.me/dantebesfalin" class="post__button-link" target="_blank">Комментировать<span class="post__button-icon">&gt;</span></a>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <p class="section__text"></p>
+      </section>
+    </main>
+    <footer class="footer"></footer>
 
-  <nav class="menu">
-    <ul class="menu__list">
-      <li class="menu__item">
-        <a class="menu__item-link" href="#about">
-          <span>
-            Обо мне
-          </span>
-        </a>
-      </li>
-      <li class="menu__item">
-        <a class="menu__item-link" href="#projects">
-          <span class="menu__item-text">
-            Проекты
-          </span>
-        </a>
-      </li>
-      <li class="menu__item">
-        <a class="menu__item-link" href="#interests">
-          <span class="menu__item-text">
-            Интересы
-          </span>
-        </a>
-      </li>
-      <li class="menu__item">
-        <details class="menu__details">
-          <summary>
-            <span>Контакты</span>
-          </summary>
-          <ul class="menu__details-list">
-            <li class="menu__details-item">
-              <a class="menu__details-item-link" href="vk.com/besfalin_yt">
-                <span class="menu__details-item-text"> Профиль в ВК</span>
-              </a>
-            </li>
-            <li class="menu__details-item">
-              <a class="menu__details-item-link" href="youtube.com/@DanteBesfalin">
-                <span class="menu__details-item-text">YouTube-канал</span>
-              </a>
-            </li>
-            <li class="menu__details-item">
-              <a class="menu__details-item-link" href="tg.com">
-                <span class="menu__details-item-text">Телеграмм-канал</span>
-              </a>
-            </li>
-          </ul>
-        </details>
-      </li>
-    </ul>
-  </nav>
-  <main class="content">
-    
-  </main>
-  <footer class="footer">
-
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>

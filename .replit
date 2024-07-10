@@ -1,0 +1,9 @@
+run = "npm install http-server"
+modules = ["nodejs-20"]
+
+[deployment]
+run = ["sh", "-c", "npm install http-server"]
+
+[[ports]]
+localPort = 8080
+externalPort = 3000
