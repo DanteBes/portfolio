@@ -82,6 +82,7 @@
   padding: 1.5em;
 	border-radius: 1.2em;
   line-height: 1.35em;
+	box-shadow: 0 0 10px 0 hsl(from var(--theme-clr-1) h s l / 0.7); 
 } 
 
 .about {
